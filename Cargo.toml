@@ -1,0 +1,11 @@
+[package]
+name = "coding-take-home"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+csv = "1.4.0"
+fnv = "1.0.7"
+rust_decimal = "1.42.1"
+serde = { version = "1.0.229", features = ["derive"] }
+thiserror = "2.0.20"
